@@ -1,9 +1,12 @@
 {
-  "name": "calculater",
-  "version": "1.0.0",
+  "name": "basic-cli-cal",
+  "version": "1.1.0",
   "description": "",
   "main": "index.js",
   "type": "module",
+  "bin": {
+    "basic-cli-cal": "./index.js"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -11,9 +14,15 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "basic-cli-cal": "^1.1.0",
+    "chalk-animation": "^2.0.3",
+    "cli-spinners": "^2.8.0",
+    "figlet": "^1.5.2",
     "inquirer": "^9.1.5"
   },
   "devDependencies": {
+    "@types/chalk-animation": "^1.6.1",
+    "@types/figlet": "^1.5.5",
     "@types/inquirer": "^9.0.3"
   }
 }
